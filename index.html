@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viweport" content="width=device-width,
+        initial-scale=1.0" />
+        <meta name="theme-color" content="#000000" />
+        <title>FNAF - Do you dare to keep watch? </title>
+        <meta name="description" content="Tribute to Five Nights at Freddy´s by Scott Cawthon: random jump scares, the story and lore, the complete series of games available for purchase, and a note of appreciation for the creador." />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" 
+        crossorigin />
+        <link href="https://fonts.googleapis.com/css2?
+        family=Roboto:wght@300;400;500;700
+        &family=Special+Elite&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="css/style.css?v=9" />
+
+    </head>
+    <body>
+
+        <!-- Atmosphere: gain, CCTV lines, and vignette -->
+         <div class="fx-noise"></div>
+         <div class="fx-scan"></div>
+         <div class="fx-vignette"></div>
+
+         <!-- Top bar -->
+          <header class="bar">
+            <span class="logo">FNAF<span class="logo-dot">.</span>
+            NOCTURNAL</span>
+            <nav class="nav">
+                <a href="#lore" data-i18n="nav1">HISTORY</a>
+                <a href="#saga" data-i18n="nav2">THE SAGA</a>
+                <a href="#creator" data-i18n="nav3">THE CREATOR</a>
+            </nav>
+            <button id="lang" class="lang-btn" type="button" aria-label="Change language">ES</button>
+          </header>
+
+          <main>
+
+            <!-- HERO: the night button -->
+             <section class="hero" id="above">
+                <p class="hero-kicker" data-i18n="kicker">FREDDY FAZBEAR´S LOCATION &mdash; CAMARE CROPPING 07</p>
+                <h1 class="hero-title flicker" id="title" data-i18n="title">DO YOU DARE TO KEEP WATCH?</h1>
+                <p class="hero-tag" data-i18n="tag">A terrifying tribute to Five Nights at Freddy´s.<br />Leave the sound on. Dim the lights. And press&hellip;</p>
+
+                <!-- Music box: don´t let it die -->
+                <div class="box" id="box">
+                    <p class="box-title" data-i18n="boxTitle">Music Box</p>
+                    <div class="box-meter"><i id=box-fill style="width:100%"></i></div>
+                        <button id="wind-btn" type="button"><span data-i18n="boxWind" style="white-space:normal">HOLD DOWN TO WIND</span></button>
+                        <p class="box-state" id="box-state"></p>
+                </div>
+
+                <p class="night" id="night-line">
+                    <span data-i18n="night">NIGHT</span> <b id="night-n">0</b>
+                </p>
+             </section>
+
+             <!-- LORE AND HISTORY -->
+              <section class="sec" id="lore">
+                <h2 class="head" data-i18n="loreTitle">LORE AND HISTORY</h2>
+                <figure class="lore-fig">
+                    <img src="assets/img/mapa.png" alt="Floor plan of the premises - Five Nights at Freddy´s" loading="lazy" />
+                    <figcaption data-i18n="loreCap">THE LAYOUT OF THE PREMISES LEARN IT BY HEART. IT WILL HELP YOU SURVIVE</figcaption>
+                </figure>
+                <p class="game-p" data-i18n="loreP1"></p>
+                <p class="game-p" data-i18n="loreP2"></p>
+                <p class="game-p" data-i18n="loreP3"></p>
+                <p class="game-p" data-i18n="loreP4"></p>
+              </section>
+
+              <!-- THE SAGA -->
+               <section class="sec" id="saga">
+                <h2 class="head" data-i18n="sagaTitle">THE SAGA</h2>
+                <p class="game-p" data-i18n="sagaIntro"></p>
+                <div class="saga" id="saga-grid"><!-- tarjetas dibujadas por js/script.js --></div>
+                <p class="game-p buy-note" data-i18n="sagaNote"></p>
+               </section>
+
+               <!-- THE CREATOR -->
+                <section class="sec" id="creador">
+                    <h2 class="head" data-i18n="creTitle">THE CREATOR</h2>
+                    <p class="game-p" data- -i18n="creP1"></p>
+                    <p class="game-p" data-i18n="creP2"></p>                    
+                </section>
+
+                <!-- GRATITUDE -->
+                 <section class="sec thanks" id="gracias">
+                    <h2 class="head" data-i18n="grTitle">Thanks a lot, Scott</h2>
+                    <figure class="thanks-fig">
+                        <img src="assets/img/dibujo.webp" alt="Dibujo de FNAF" loading="lazy" />
+                        <figcaption data-i18n="grCap">My day at the new Freddy Fazbear´s Pizza</figcaption>
+                    </figure>
+                    <p class="game-p gr-txt" data-i18n="grTxt"></p>
+                 </section>
+
+          </main>
+
+          <footer>
+            <p class="c-credits">FIVE NINGHTS AT FREDDY´S &mdash;
+                game and characters created by <b>Scott Cawthon</b>
+                &middot; ScottGames (FNAF).</p>
+                <p class="c-credits">Jumpscares, images and sound: <b>Scott Cawthon</b> &mdash; ScottGames</p>
+                <p class="c-soft" data-i18n="disclaim">Unofficial fan page, with no affiliation to ScottGames or Scott Cawthon. Made with terror and care.</p>
+          </footer>
+
+          <script src="js/script.js?v=9"></script>
+    </body>
+</html>
+
