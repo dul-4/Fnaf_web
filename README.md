@@ -1,2 +1,4 @@
 # Fnaf_web
-An original interactive horror web experience built for Hack Club 3AM.
+An interactive website—a truly special, 
+interactive one—where any FNAF fan can get excited. 
+Mind you, I’m still just learning!
